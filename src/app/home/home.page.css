@@ -1,0 +1,12 @@
+ion-item {
+  --ion-background-color: #018a01;
+}
+ion-card-content {
+  background: #1fe2b1;
+  color: black;
+}
+@media (orientation: landscape) {
+  #email {
+    display: none;
+  }
+}

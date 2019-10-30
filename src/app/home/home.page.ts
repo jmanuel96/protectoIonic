@@ -16,5 +16,3 @@ export class HomePage {
   }
  
 }
-
-https://github.com/jmanuel96/ProyectoJSON.git

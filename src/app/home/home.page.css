@@ -1,12 +1,66 @@
-ion-item {
-  --ion-background-color: #018a01;
+@media (max-width: 720px) {
+  ion-toolbar {
+    --ion-background-color: #ccff90;
+  }
+  ion-item {
+    --ion-background-color: #99cc60;
+    text-align: center;
+    color: #fff;
+  }
+  ion-content {
+    --ion-background-color: #eceff1;
+  }
+  ion-card-content {
+    background-color: #ffffc2;
+    color: #000;
+  }
+  ion-title {
+    font-family: Arial;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+  }
 }
-ion-card-content {
-  background: #1fe2b1;
-  color: black;
+@media (min-width: 720px) and (max-width: 1080px) {
+  ion-card-content {
+    background-color: #b2fef7;
+    color: #000;
+  }
+  ion-title {
+    font-family: fantasy;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+  }
+  ion-toolbar {
+    --ion-background-color: #4f9a94;
+  }
+  ion-item {
+    --ion-background-color: #80cbc4;
+    text-align: center;
+    color: #fff;
+  }
 }
-@media (orientation: landscape) {
-  #email {
-    display: none;
+@media (min-width: 1080px) {
+  ion-toolbar {
+    --ion-background-color: #fff59d;
+  }
+  ion-item {
+    --ion-background-color: #ffffcf;
+    text-align: center;
+    color: #000;
+  }
+  ion-content {
+    --ion-background-color: #cbc26d;
+  }
+  ion-card-content {
+    font-family: Verdana;
+    background-color: #fff;
+  }
+  ion-title {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    size: 90px;
+    color: #000;
+    text-align: center;
   }
 }

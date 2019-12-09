@@ -7,18 +7,22 @@
 </ion-header>
  
 <ion-content>
+    <ion-item>
+      <h1 id="pagPrinc"><b> <ion-icon name="logo-android"></ion-icon>{{ejemplo}}</b></h1><br>
+      <ion-input [(ngModel)]="gen" placeholder="Buscar..."></ion-input><ion-icon name="search"></ion-icon>
+    </ion-item>
   <ion-grid>
     <ion-row>
-      <ion-col *ngFor="let cosas of grupo | async" size-xs="12" size-sm="6" size-md="4" size-lg="2" size-xl="1" >
+      <ion-col *ngFor="let cosas of grupo | async" size-xs="12" size-sm="6" size-md="4" size-lg="2" size-xl="2" >
           <ion-card>
           <ion-item>
             <h1>{{ cosas.name}} </h1>
           </ion-item>
           <ion-card-content>
-            <h3 class="ej1">Age: {{cosas.age}} yearsdaasdsas old</h3>
+            <h3 class="ej1">Age: {{cosas.age}} years old</h3>
             <h3 class="ej2">Gender: {{cosas.gender}}</h3>
             <h3 class="ej3">Address: {{cosas.address}}</h3>
-            <h3 class="ej4">Company: {{cosas.company}}</h3>
+            <h3 id="ej4">Company: {{cosas.company}}</h3>
             <h3 id="email" class="ej5">Email: {{ cosas.email}}</h3>
           </ion-card-content>
         </ion-card>

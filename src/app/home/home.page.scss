@@ -1,26 +1,24 @@
-// ion-item{
-//     --ion-background-color: rgb(1, 138, 1);
-// }
-// ion-card-content{
-//     background: rgb(175, 190, 187);
-//     color: black;
-// }
+ ion-item{
+     --ion-background-color: rgb(1, 138, 1);
+ }
+ ion-card-content{
+     background: rgb(175, 190, 187);
+     color: black;
+ }
 
 
 
-// @media(orientation: landscape){
-//     #email {display: none};
-// }
-// @media(orientation: portrait){
-//     #ej4{
-//         display: none;
-//     }
+ @media(orientation: landscape){
+     #email {display: none};
+ }
+ @media(orientation: portrait){
+     #ej4 {display: none;}
     
-// }
+ }
 
-// h3{
-//     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-//   }
+ h3{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
 
 // La aplicación genera los siguientes estilos si el ancho se comprende entre 0 y 720 píxeles.
   @media (max-width: 720px) {
@@ -71,7 +69,7 @@
       --ion-background-color:#80cbc4;
       text-align: center;
       color: rgb(255, 255, 255);
-      }
+    }
   }
 
   @media (min-width: 1080px) {
@@ -97,3 +95,33 @@
       text-align: center;
     }
   }
+  
+  // @media (orientation: portrait){
+  
+  //   #titulo{
+  //     font-size: 25px;
+  //   }
+  //   #vistaHor{
+  //     visibility: hidden;
+  //   }
+  //   #vistaVert{
+  //     visibility: visible;
+  //   }
+  // }
+
+  // @media (orientation: landscape){
+  //   #main{
+  //     font-size: 25px;
+  //   }
+  //   #vistaHor{
+  
+  //     visibility: visible;
+  //   }
+  //   #vistaVert{
+  //     visibility: hidden;
+  //   }
+  //   #barra{
+  //     size: 15px;
+  //     visibility: visible;
+  //   }
+  // }

@@ -10,7 +10,8 @@ import { map }  from  'rxjs/operators';
 export class HomePage {
  
   grupo: any;
-  ejemplo: string = 'belo';
+  ejemplo: string = 'Modificacion';
+  //gen : string = "";
   
   constructor(private httpClient: HttpClient) {
     this.grupo = this.httpClient.get('https://raw.githubusercontent.com/jmanuel96/ProyectoJSON/master/ejemplo.json').pipe(map(res => res['results']));

@@ -1,3 +1,23 @@
+ion-item {
+  --ion-background-color: #018a01;
+}
+ion-card-content {
+  background: #afbebb;
+  color: black;
+}
+@media (orientation: landscape) {
+  #email {
+    display: none;
+  }
+}
+@media (orientation: portrait) {
+  #ej4 {
+    display: none;
+  }
+}
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 @media (max-width: 720px) {
   ion-toolbar {
     --ion-background-color: #ccff90;

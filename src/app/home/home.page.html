@@ -8,13 +8,15 @@
  
 <ion-content>
     <ion-item>
-      <h1 id="pagPrinc"><b> <ion-icon name="logo-android"></ion-icon>{{ejemplo}}</b></h1><br>
-      <ion-input [(ngModel)]="gen"></ion-input><ion-icon name="search"></ion-icon>
+      <h1 id="pagPrinc"><b> <ion-icon name="people"></ion-icon>{{instrucciones}}</b></h1>
+    </ion-item>
+    <ion-item>
+      <ion-input [(ngModel)]="genero" placeholder="Introduce 'Male' o 'Female:'"></ion-input>
     </ion-item>
   <ion-grid>
     <ion-row>
       <ion-col *ngFor="let cosas of grupo | async" size-xs="12" size-sm="6" size-md="4" size-lg="2" size-xl="2" >
-          <ion-card>
+          <ion-card *ngIf = "cosas.gender == genero">
           <ion-item>
             <h1>{{ cosas.name}} </h1>
           </ion-item>
